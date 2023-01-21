@@ -1,6 +1,8 @@
 # Steam-Deck-Setup-Guide
 
-This is a guide containing a complination of a multiple of steam deck tools that are all around useful, espsecially for a new setup.
+This is a guide containing a compilation of a multiple of steam deck tools that are all around useful, especially for a new setup.
+
+<!--Section to explain what a Steam Deck is? Go over SD card/dock recommendations? -->
 
 ## Table of Contents
 - Emulation
@@ -13,7 +15,7 @@ This is a guide containing a complination of a multiple of steam deck tools that
 
 # Emulation
 ## [EmuDeck](https://www.emudeck.com)
-An all-in-one emulation installer. It'll set-up the filestructure needed for every emulator so you can just start and go. 
+An all-in-one emulation installer. It'll set-up the file structure needed for every emulator so you can just start and go. 
 
 Note: 
 
@@ -21,7 +23,7 @@ Note:
 
 
 ## [RetroDECK](https://retrodeck.net)
-Another all-in-one emulator except this one uses the frontend of EmulationStation. 
+Another all-in-one emulator except this one uses the front-end of EmulationStation. 
 <!--Look up differences between this and Emudeck.-->
 
 Note: 
@@ -29,40 +31,50 @@ Note:
 
 
 # Remote Play
+<!--Think about adding performance of each? Or keep this install centered only? -->
 
-## Chikai/Chikai4deck
+## [Chikai4deck](https://github.com/streetpea/chiaki4deck)
 <!-- describe the process for installing and how to set it up. -->
+A PS4/PS5 remote play app. 
+<!-- Include screenshots of deck. Find out how to "put screenshot in photo of deck"-->
 
-## Moonlight
+## [Moonlight](https://moonlight-stream.org)
 <!-- describe how to install and set up. -->
 
-Note: Nvidia has announced they are dropping GameStreat from the Shield starting *check date* which will not essentially kill Moonlight. 
 
-## Sunshine
+Note: Nvidia has announced they are dropping GameStreat from the Shield starting *check date* which will not essentially kill Moonlight's current functionality. 
+
+## [Sunshine](https://github.com/LizardByte/Sunshine)
+Sunshine is a Gamestream host for Moonlight. 
 <!-- Explain how this would replace GameStream but it is not as reliable and performs worse.-->
+
+## [Greenlight](https://github.com/unknownskl/xbox-xcloud-client)
+Greenlight is an Xbox Remote Play app. Not to be confused with xCloud. This is used to connect directly to your Xbox.
+
 
 # Non-Steam Games
 <!-- Consider combining this with Other Launchers -->
 
 # Other Launchers
 
-## Lutris 
+## Lutris
+<!--Explain how to install and what it does. List services it connects to.-->
 
 ## Heroic
+<!--Explain how to install and what it does. List services it connects to. Also compare to Lutris-->
 
 
-# Tools 
+# Tools
 
-## Deckyloader 
-
+## [Decky Loader](https://github.com/SteamDeckHomebrew/decky-loader)
+Decky Loader is a plugin-manager used to install various useful tools into the Quick Action Menu [...]
 <!-- Describe deckyloader. Maybe create a nested list for each current plugin. -->
 
-## CrankShaft
-<!-- Might be abandoned -->
-
 ## ProtonQT
+<!--Explain how to use this and why you should use it. Maybe look up an example of a game that needs it to run. 
 
 ## Cryobyte33 Steam Deck Utilities
+<!--Explain how to use this tool and why it's useful-->
 
 ## Steamdeck utils
 <!-- Dev changed name. Need to look it up -->
