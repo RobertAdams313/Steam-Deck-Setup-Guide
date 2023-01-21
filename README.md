@@ -1,4 +1,12 @@
-# Steam-Deck-Setup-Guide
+# Steam Deck Setup Guide
+
+
+<!--Not final name-->
+
+<p align="center">
+  <img width="500" height="300" src="https://user-images.githubusercontent.com/34931118/213883216-01128eb2-64a1-433f-9788-4bc30a358f7a.jpg">
+</p>
+
 
 This is a guide containing a compilation of a multiple of steam deck tools that are all around useful, especially for a new setup.
 
