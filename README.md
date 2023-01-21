@@ -23,7 +23,7 @@ An all-in-one emulation installer. It'll set-up the file structure needed for ev
 ``` NOTE: This WILL delete any existing data on your SD Card. ``` 
 >To format an SD Card go to Settings > System > Format SD Card. It will format it correctly for you. 
 2. Go into Desktop mode by pressing the STEAM button > Power > Switch to Desktop.
-3. Open up your browser of choice and go to (https://www.emudeck.com/#download) and download the EmuDeck installer.
+3. Open up your browser of choice and go to https://www.emudeck.com/#download and download the EmuDeck installer.
 4.  
 
 Note: 
