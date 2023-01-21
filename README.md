@@ -20,11 +20,16 @@ This is a guide containing a compilation of a multiple of steam deck tools that 
 - Other Launchers
 - Tools
 
-# Tips
+# Easier File Transfers
 ## [AnyDesk](https://www.anydesk.com)
 AnyDesk is a remote desktop application  one of the best and easiest ways to navigate the Steam Deck while in Desktop mode. It's free and it'll share the mouse/keyboard and clipboard with your actual PC. The best part is it's multiplatform. It's available on Windows, macOS, Linux, Android, iOS, FreeBSD, Raspberry Pi and Chrome OS.  
 
 ## Enable SSH
+
+Enabling SSH is useful for file transfering purposes via FTP applications such as WinSCP, etc <!--Look up other examples-->
+
+## KDE Connect
+As of software version 3.4.4 KDE was updated to support KDE Connect which allows you to -- <!--Look for examples--> The functionality is built into the OS. Just download KDE connect on the device you'd like to transfer files from. <!--Find supported OS's-->
 
 # Emulation
 ## [EmuDeck](https://www.emudeck.com)
