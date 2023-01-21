@@ -15,7 +15,14 @@ This is a guide containing a compilation of a multiple of steam deck tools that 
 
 # Emulation
 ## [EmuDeck](https://www.emudeck.com)
-An all-in-one emulation installer. It'll set-up the file structure needed for every emulator so you can just start and go. 
+An all-in-one emulation installer. It'll set-up the file structure needed for every emulator so you can just start and go.
+
+### Install Guide:
+1. If using an SD card format it if you haven't done so yet. 
+
+``` NOTE: This WILL delete any existing data on your SD Card. ``` 
+>To format an SD Card go to Settings > System > Format SD Card. It will format it correctly for you. 
+2. 
 
 Note: 
 
@@ -40,12 +47,17 @@ A PS4/PS5 remote play app.
 
 ## [Moonlight](https://moonlight-stream.org)
 <!-- describe how to install and set up. -->
+Moonlight utilizes Gamesteam  to trick your PC into thinking the streaming device is a Nvidia Shield so you can stream any of your games. You can also use this as a Remote Desktop application by adding mstsc.exe to the Shield tab in Geforce Experience. 
+
+<!--Should I do a nested list here highlighting the process for installing on host/steam deck, configuration, recommended settings, recommended controller config, 
+
+Gamestream allows you to stream any of your games from your PC using a Nvidia GTX or RTX graphics card. Using high speed, low latency video encoders built into GTX/RTX GPUs It's intended use is for you to stream your games to a Nvidia Shield TV or Shield Tablet. 
 
 
 Note: Nvidia has announced they are dropping GameStreat from the Shield starting *check date* which will not essentially kill Moonlight's current functionality. 
 
 ## [Sunshine](https://github.com/LizardByte/Sunshine)
-Sunshine is a Gamestream host for Moonlight. 
+Sunshine is a Gamestream host for Moonlight. This removes the need to have a Nvidia graphics card so if you're using an AMD card this is what you'll need to use Moonlight. 
 <!-- Explain how this would replace GameStream but it is not as reliable and performs worse.-->
 
 ## [Greenlight](https://github.com/unknownskl/xbox-xcloud-client)
