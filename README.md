@@ -12,11 +12,11 @@ This is a guide containing a compilation of a multiple of steam deck tools that 
 - Other Launchers
 - Tools
 
-#Tips
+# Tips
 ## [AnyDesk](https://www.anydesk.com)
 AnyDesk is a remote desktop application  one of the best and easiest ways to navigate the Steam Deck while in Desktop mode. It's free and it'll share the mouse/keyboard and clipboard with your actual PC. The best part is it's multiplatform. It's available on Windows, macOS, Linux, Android, iOS, FreeBSD and Raspberry Pi.  
 
-##Enable SSH
+## Enable SSH
 
 # Emulation
 ## [EmuDeck](https://www.emudeck.com)
