@@ -131,6 +131,6 @@ Decky Loader is a plugin-manager used to install various useful tools into the Q
 ## Steamdeck utils
 <!-- Dev changed name. Need to look it up -->
 
-#Accessories 
+# Accessories 
 
 <!--Steam Dock + 3rd Party Docks, Compact M+KB, SD Card, -->
