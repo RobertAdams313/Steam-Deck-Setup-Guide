@@ -35,7 +35,8 @@ In the QAM you get an option between locking it at 15 fps, 30 fps or 60 fps. You
 
 
 # Easier File Transfers
-## [AnyDesk](https://www.anydesk.com)
+## [AnyDesk](https://www.anydesk.com)![anydesk-logo-white-red-ec4e3a](https://user-images.githubusercontent.com/34931118/213895260-7b7d34e3-b0d5-48bf-ab91-46f71b318404.png)
+
 AnyDesk is a remote desktop application  one of the best and easiest ways to navigate the Steam Deck while in Desktop mode. It's free and it'll share the mouse/keyboard and clipboard with your actual PC. The best part is it's multiplatform. It's available on Windows, macOS, Linux, Android, iOS, FreeBSD, Raspberry Pi and Chrome OS.  
 
 ## Enable SSH
