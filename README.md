@@ -205,3 +205,8 @@ This is the official dock released by Valve for the Steam Deck.
 |-----------------|-----------|
 | Size | 117mm x 29mm x 50.5mm
 | Weight | Approximately 120 grams
+
+
+# Glossary 
+
+<!--explain each acronym-->
