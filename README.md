@@ -43,6 +43,33 @@ AnyDesk is a remote desktop application  one of the best and easiest ways to nav
 
 Enabling SSH is useful for file transfering purposes via FTP applications such as WinSCP, etc <!--Look up other examples-->
 
+To enable SSH you will need to first create a sudo password. If you've already done this then you can skip this portion. 
+1. Go into Desktop Mode
+2. Launch Konsole
+3. Enter the command passwd
+4. Enter password you'd like to use. (Nothing will show up when you type. This is normal.)
+5. You will have to retype the password again. 
+
+Now that you have a sudo password you can enable SSH. 
+    
+ Enter the following command. 
+   
+  ```sudo systemctl start sshd```
+
+ The service will run until you reboot your steam deck or you can enter the following command.
+
+ ```sudo systemctl stop sshd```
+ 
+
+ If you want SSH to start up every time you boot up without any further input from you then you can enter the following command. 
+
+```sudo systemctl enable sshd```
+
+To disable it you can enter the following: 
+
+```sudo systemctl disable sshd```
+
+
 ## KDE Connect
 As of software version 3.4.4 KDE was updated to support KDE Connect which allows you to -- <!--Look for examples--> The functionality is built into the OS. Just download KDE connect on the device you'd like to transfer files from. <!--Find supported OS's-->
 
@@ -58,7 +85,9 @@ An all-in-one emulation installer. It'll set-up the file structure needed for ev
 >To format an SD Card go to Settings > System > Format SD Card. It will format it correctly for you. 
 2. Go into Desktop mode by pressing the STEAM button > Power > Switch to Desktop.
 3. Open up your browser of choice and go to https://www.emudeck.com/#download and download the EmuDeck installer.
-4.  
+4. Run the installer
+5. Follow the on screen prompts.
+6. Go to how to Install Roms section <!--Figure out how to link this to a new section-->
 
 Note: 
 
@@ -69,6 +98,14 @@ Note:
 
 Another all-in-one emulator except this one uses the front-end of EmulationStation. 
 <!--Look up differences between this and Emudeck.-->
+
+1. Start RetroDECK from the Desktop mode (first time only)
+2. Follow the setup (read carefully!)
+3. Add RetroDECK to your Steam Library
+4. [OPTIONAL] Download Steam Grids with BoilR
+5. Always start RetroDECK from Steam Library
+
+<!--Rewrite-- as this is copied from their website>
 
 Note: 
 
@@ -83,6 +120,18 @@ Note:
 
 A PS4/PS5 remote play app. 
 <!-- Include screenshots of deck. Find out how to "put screenshot in photo of deck"-->
+
+## Installation 
+1. Go into Desktop mode
+2. Open up Konsole
+3. Run this command. 
+
+```flatpak install --user -y https://github.com/streetpea/chiaki4deck/releases/download/v1.3.0/re.chiaki.Chiaki4deck.flatpakref```
+
+4. Find out what happens after this
+
+## Setup
+1. 
 
 ## [Moonlight](https://moonlight-stream.org)
 <!-- describe how to install and set up. -->
@@ -166,9 +215,17 @@ Decky Loader is a plugin-manager used to install various useful tools into the Q
 <!-- Describe deckyloader. Maybe create a nested list for each current plugin. -->
 
 ## ProtonQT
-<!--Explain how to use this and why you should use it. Maybe look up an example of a game that needs it to run. 
+<!--Explain how to use this and why you should use it. Maybe look up an example of a game that needs it to run. -->
 
-## Cryobyte33 Steam Deck Utilities
+## [CryoUtilities](https://github.com/CryoByte33/steam-deck-utilities) 
+This is a tool created by Cryobyte33 that contains scripts and utilities to enhance the Steam Deck experience. 
+
+## Installation
+1.  Go into Desktop mode 
+2.  Download [this](https://raw.githubusercontent.com/CryoByte33/steam-deck-utilities/main/InstallCryoUtilities.desktop) link on the Steam Deck desktop and run it. 
+3.  There will be 3 new icons on your desktop. CryoUtilities, Update CryoUtilities and Uninstall CryoUtilities. Select the CryoUtilities icon.
+4.  For the easiest installation you can select recommended settings. 
+5.  Done!
 <!--Explain how to use this tool and why it's useful-->
 
 ## Steamdeck utils
@@ -191,7 +248,7 @@ This is the official dock released by Valve for the Steam Deck.
 
 | Expansion |  <!-- -->
 |----------|----------|
-| Peripherals | 3x USB-A 3.1 Gen1 Ports |
+|Peripherals | 3x USB-A 3.1 Gen1 Ports |
 |Networking | Gigabit Ethernet |
 |External displays | DisplayPort 1.4 <br />HDMI 2.0 <br /> Supports up to 4K 60hz, or 1440p 120hz <br />
 
@@ -208,5 +265,7 @@ This is the official dock released by Valve for the Steam Deck.
 
 
 # Glossary 
+
+GPU
 
 <!--explain each acronym-->
